@@ -4,7 +4,7 @@ This repository contains code and design files for a door status light system us
 
 ## Project Description
 
-This project is a door status signal system. It uses an Arduino Nano, 3 LEDs, a touch sensor (or switch/button), and a breadboard. Depending on the state of the switch, different LEDs light up to show the door's status.
+This project is a door status signal system. It uses an Arduino Nano, 3 LEDs, a momentary switch (push button), and a breadboard or solder. When the switch is pressed, it sends a signal to the board, different LEDs light up to show the present status. (I'm using red for don't enter, blue for come in quietly, and green for enter freely)
 
 ## Getting Started
 
@@ -14,11 +14,13 @@ This project is a door status signal system. It uses an Arduino Nano, 3 LEDs, a 
 - 3 LEDs
 - 3 Resistors
 - 1 touch sensor, switch, or button
-- Breadboard
+- Breadboard (if not soldering)
+- Wires 
+- Soldering equipment (if not using breadboard)
 
 ### Wiring
 
-The switch is wired to post 2, and the resistors are wired to posts 9, 10, and 11.
+The switch is wired to post 2, and the resistors are wired from the annode (positive, longer leg of diode) to posts 9, 10, and 11
 
 ### Installation
 
